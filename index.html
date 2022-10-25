@@ -10,15 +10,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
+    <header class="header">
         <img src="/assets/images/header-logo.png" alt="ARG DROPS SUPREME TYPE LOGO">
-        <nav>
-            <ul>
-                <li><a href="">home</a></li>
-                <li><a href="">products</a></li>
-                <li><a href="">contact</a></li>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__list__links"><a href="">home</a></li>
+                <li class="nav__list__links"><a href="">products</a></li>
+                <li class="nav__list__links"><a href="">contact</a></li>
             </ul>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="nav__cart fa-solid fa-cart-shopping"></i>
         </nav>
     </header>
     <main>
@@ -27,10 +27,12 @@
                 <div class="hero-text">
                     <h1>LA MODA DE ESTADOS UNIDOS DIRECTO A BSAS</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit animi nisi reiciendis expedita blanditiis. Quas facilis nisi ea delectus rerum atque laboriosam veritatis qui enim? Iure dolor expedita veniam voluptatem.</p>
-                    <button>Login</button>
-                    <button>Register</button>
+                    <div class="button-container">
+                        <button>Login</button>
+                        <button>Register</button>
+                    </div>   
                 </div>
-                <img src="/assets/images/hero-img.png" alt="jordan 1 chicago off white">
+                <img class="hero-img" src="/assets/images/hero-img.png" alt="jordan 1 chicago off white">
             </div>
         </section>
     </main>
